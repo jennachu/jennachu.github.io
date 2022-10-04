@@ -39,18 +39,6 @@ h4 {font-family: Arial; }
   vertical-align: middle;
 }
 
-.pamela-text{
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-
-  display:inline-block;
-  vertical-align: middle;
-}
-
 .abe {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
   display: flex;
@@ -69,16 +57,16 @@ h4 {font-family: Arial; }
   vertical-align: middle;
 }
 
-.abe-text{
-  position: relative;
+.persona-text{
+  /* position: relative; */
   width: 100%;
-  padding-right: 15px;
+  /* padding-right: 15px;
   padding-left: 15px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 30px; */
 
-  display:inline-block;
-  vertical-align: middle;
+  display:flex;
+  align-items: center;
 }
 
 
@@ -107,7 +95,7 @@ h4 {font-family: Arial; }
 }
 
 .body-text{
-  padding-right: 50px;
+  padding-right: 100px;
   padding-left: 100px;
 }
 
