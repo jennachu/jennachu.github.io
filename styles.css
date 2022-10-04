@@ -1,6 +1,9 @@
-#project-descrip {
-    background-color: white;
-  }
+
+p { font-family: Arial; }
+li {font-family: Arial; }
+ol {font-family: Arial; }
+h3 {font-family: Arial; }
+h1 {font-family: Arial; }
 
 /* center the text */
 .project-descrip {
@@ -32,8 +35,24 @@
 }
 
 .container{
-  color:black;
-  
+  display: flex;
+  flex: 1;
+  overflow: auto;
+  flex-direction: row;
+  position: relative;
+  padding: 15px;
+
 }
+
+.col-12 col-md-9{
+  display: flex;
+  flex: 1;
+  overflow: auto;
+  flex-direction: row;
+  position: relative;
+  padding: 15px;
+}
+
+
 
 
